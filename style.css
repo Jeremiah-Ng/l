@@ -1,0 +1,72 @@
+
+#heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+cursor: context-menu;
+border-radius: 0;
+}
+#heading:hover{
+    background-color: #5bc0de;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+#status
+{
+font-size: 18px;
+}
+canvas{
+    margin-top: 125px;
+    margin-left: 450px;
+    border: black solid;
+    border-radius: 30px;
+    animation-name: identifier;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes identifier {
+    0%{box-shadow: 1px 1px 50px red;}
+    12.5%{box-shadow: 1px 1px 50px orange;}
+    25%{box-shadow: 1px 1px 50px yellow;}
+    37.5%{box-shadow: 1px 1px 50px rgb(0, 255, 0);}
+    50%{box-shadow: 1px 1px 50px rgb(0, 255, 255);}
+    62.5%{box-shadow: 1px 1px 50px blue;}
+    75%{box-shadow: 1px 1px 50px purple;}
+    87.5%{box-shadow: 1px 1px 50px rgb(255, 0, 255);}
+    100%{box-shadow: 1px 1px 50px red;}
+}
+@keyframes identifier2 {
+    0%{box-shadow: 1px 1px 50px red;}
+    12.5%{box-shadow: 1px 1px 50px rgb(255, 0, 255);}
+    25%{box-shadow: 1px 1px 50px purple;}
+    37.5%{box-shadow: 1px 1px 50px blue;}
+    50%{box-shadow: 1px 1px 50px rgb(0, 255, 255);}
+    62.5%{box-shadow: 1px 1px 50px rgb(0, 255, 0);}
+    75%{box-shadow: 1px 1px 50px yellow;}
+    87.5%{box-shadow: 1px 1px 50px orange;}
+    100%{box-shadow: 1px 1px 50px red;}
+}
+#image1{
+    margin-top: 30px!important;
+}
+.buttongroup1{
+    margin-top: 40px;
+    width: 50%;
+    border-radius: 30px;
+    font-size: 20px;
+    animation-name: identifier;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.buttongroup2{
+    margin-top: 40px;
+    width: 50%;
+    border-radius: 30px;
+    font-size: 20px;
+    animation-name: identifier2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
